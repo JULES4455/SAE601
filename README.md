@@ -17,6 +17,7 @@ Pour ce faire, nous avions un jeu de données de plus de 3000 individus avec plu
 - company_size : Taille de l'entreprise. "L" = "Large" (grande entreprise).
 
 **1. Présentation des bibliothèques**
+
 Pour réaliser cette visualisation, nous avons besoin de plusieurs bibliothèques Python. Chacune joue un rôle spécifique dans le traitement des données, leur analyse et leur affichage interactif. 
 
 1. Bibliothèque os

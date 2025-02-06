@@ -49,7 +49,7 @@ Le module plotly.express permet de générer des graphiques dynamiques avec des 
 
 En combinant toutes ces bibliothèques, nous pouvons charger des données, les analyser et les représenter sous forme de visualisations interactives dans une application web intuitive avec Streamlit.
 
-**2 .Installation des bibliotèques **
+**2 .Installation des bibliotèques**
 
 Pour installer les bibliotèques nécessaires au bon fonctionnement de l'application :  
 

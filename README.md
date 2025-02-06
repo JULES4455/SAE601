@@ -1,4 +1,5 @@
-"# Projet Jupyter Notebook Description" 
+# Projet Jupyter Notebook Description 
+## Jules Boiziau et Guillaume Réault
 
 Le but du projet est de réaliser une application permettant de visualiser le salaire
 Pour ce faire, nous avions un jeu de données de plus de 3000 individus avec plusieurs variables :
@@ -15,8 +16,8 @@ Pour ce faire, nous avions un jeu de données de plus de 3000 individus avec plu
 - company_location : Pays où est située l'entreprise.
 - company_size : Taille de l'entreprise. "L" = "Large" (grande entreprise).
 
-
-Pour réaliser cette visualisation, nous avons besoin de plusieurs bibliothèques Python. Chacune joue un rôle spécifique dans le traitement des données, leur analyse et leur affichage interactif. Voici une explication détaillée des bibliothèques utilisées :
+**1. Présentation des bibliothèques**
+Pour réaliser cette visualisation, nous avons besoin de plusieurs bibliothèques Python. Chacune joue un rôle spécifique dans le traitement des données, leur analyse et leur affichage interactif. 
 
 1. Bibliothèque os
 Cette bibliothèque permet d’interagir avec le système d’exploitation.
@@ -47,3 +48,12 @@ Plotly est une bibliothèque de visualisation interactive.
 Le module plotly.express permet de générer des graphiques dynamiques avec des fonctionnalités comme le zoom, le survol d’informations et les mises à jour en temps réel.
 
 En combinant toutes ces bibliothèques, nous pouvons charger des données, les analyser et les représenter sous forme de visualisations interactives dans une application web intuitive avec Streamlit.
+
+**2 .Installation des bibliotèques **
+
+Pour installer les bibliotèques nécessaires au bon fonctionnement de l'application :  
+
+- Ouvre Anaconda prompt
+- tape cette commande : conda create -n projet python pandas numpy matplotlib jupyterlab kagglehub seaborn streamlit plotly
+- tape cette commande : conda activate projet
+- pour lancer l'application : tape cette commande : streamlit run application.py

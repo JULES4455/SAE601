@@ -17,11 +17,7 @@ import streamlit as st
 import plotly.express as px
 
 # Chargement des données
-#df = pd.read_csv("........ds_salaries.csv")
-
-# importing pandas module  
       
-# making data frame  
 df = pd.read_csv("H:/S6/SAE 601/archive/ds_salaries.csv")  #création d'un dataframe avec panda
    
 df.head(10) #on affiche les 10 premières lignes
